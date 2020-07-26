@@ -2713,15 +2713,16 @@ a.text-light:hover {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
 	color: black;
-	background-color: grey;
+	background-color: lightgrey;
 	animation-name: example;
-	animation-duration: 2.5s;
-	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	letter-spacing: 2px;
 }
 
 @keyframes example {
-  from {background-color: grey;}
-  to {background-color: tomato;}
+  from {background-color: grey;color:white; letter-spacing: normal;}
+  to {background-color: lightgrey;color:black;letter-spacing: 2px;}
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
