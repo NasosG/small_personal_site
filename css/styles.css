@@ -2859,3 +2859,18 @@ span {
 	transition: all 900ms cubic-bezier(0.3, 1, 0.2, 1);
 	-webkit-transition: all 900ms cubic-bezier(0.3, 1, 0.2, 1);
 }
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
