@@ -1423,13 +1423,13 @@ a>code {
 }
 
 .bg-primary-2 {
-		/*background: #020024;
+	/*background: #020024;
 		background: linear-gradient(138deg, rgba(2, 0, 36, 1) 0, rgba(208, 208, 227, 1) 44%, rgba(0, 212, 255, 1) 96%);
 		///////////---///////////
 		background: #020024;
 		background: linear-gradient(138deg, rgba(2, 0, 36, 1) 0, rgba(239, 239, 247, 1) 44%, rgba(0, 8, 10, 1) 96%);*/
-		background: #302f3b;
-		background: linear-gradient(90deg, rgba(48, 47, 59, 1) 12%, rgba(0, 8, 10, 1) 8%, rgba(17, 25, 27, .8463760504201681) 100%, rgba(239, 239, 247, 1) 100%)
+	background: #302f3b;
+	background: linear-gradient(90deg, rgba(48, 47, 59, 1) 12%, rgba(0, 8, 10, 1) 8%, rgba(17, 25, 27, .8463760504201681) 100%, rgba(239, 239, 247, 1) 100%)
 }
 
 @media (max-width:1500px) {
@@ -2708,21 +2708,18 @@ a.text-light:hover {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
 	color: #fff;
-	text-align:center;
+	text-align: center;
+	letter-spacing: normal;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
 	color: black;
 	background-color: lightgrey;
-	animation-name: example;
-	animation-duration: 1s;
-	animation-iteration-count: 1;
 	letter-spacing: 2px;
-}
-
-@keyframes example {
-  from {background-color: grey;color:white; letter-spacing: normal;}
-  to {background-color: lightgrey;color:black;letter-spacing: 2px;}
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
@@ -2817,13 +2814,13 @@ h1 {
 }
 
 .index-btn {
-	margin-top: 50px; 
-	border: 1px solid white; 
-	padding:20px; 
+	margin-top: 50px;
+	border: 1px solid white;
+	padding: 20px;
 	border-radius: 15px;
 	background: transparent;
- 	color: white;
-    outline: none;
+	color: white;
+	outline: none;
 	overflow: hidden;
 	position: relative;
 }
@@ -2831,7 +2828,6 @@ h1 {
 .index-btn:hover {
 	color: white;
 }
-
 
 #shiny-shadow {
 	display: flex;
@@ -2841,9 +2837,8 @@ h1 {
 	background: #1c2541;
 }
 
-
 span {
-	z-index: 20;  
+	z-index: 20;
 }
 
 .index-btn:after {
@@ -2861,7 +2856,6 @@ span {
 
 .index-btn:hover:after {
 	left: 120%;
-	transition: all 1s cubic-bezier(0.3, 1, 0.2, 1);
-	-webkit-transition: all 1s cubic-bezier(0.3, 1, 0.2, 1);
+	transition: all 900ms cubic-bezier(0.3, 1, 0.2, 1);
+	-webkit-transition: all 900ms cubic-bezier(0.3, 1, 0.2, 1);
 }
-
