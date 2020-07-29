@@ -1,4 +1,3 @@
-
     (function($) {
     "use strict"; // Start of use strict
   
@@ -59,8 +58,8 @@
 	$(function() {
 		typed.typed({
 			strings: ["Thanasis Galatis"],
-			typeSpeed: /*100*/ Math.floor(Math.random() * 35) + 65 /*just to make the type speed a bit more random*/,
-		loop: false,
+			typeSpeed: /*100*/ Math.floor(Math.random() * 50) + 145 /*just to make the type speed a bit more random*/,
+			loop: false,
 		});
 	});
   
