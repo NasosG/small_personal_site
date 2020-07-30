@@ -2810,6 +2810,12 @@ h1 {
 	font-weight: 400
 }
 
+.img-code {
+	width:100%;
+	height:55%;
+	opacity:0.08;
+}
+
 @media only screen and (max-width: 992px) {
 	.img-code {
 		display: none;
